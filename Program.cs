@@ -6,9 +6,11 @@ namespace _Box_exercicio
     {
         static void Main(string[] args)
         {
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("+-----------+");
             Console.WriteLine("| Fabricio  |");
             Console.WriteLine("+-----------+");
+            Console.ForegroundColor = ConsoleColor.Gray;
         }
     }
 }
